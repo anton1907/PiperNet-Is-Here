@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 1219px;
+  margin: 0 auto;
+}
+
+.page_header {
+  position: fixed;
+  width: 1219px;
+  background-color: #007765;
+}
+
+.container_header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 55px;
+  justify-content: space-between;
+}
+
+.navigation {
+  margin: auto 0;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.navigation_itam {
+  padding-right: 8px;
+  border-right: 3px solid #FFFFFF;
+}
+
+.navigation_link {
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.container_main {
+  width: 1219px;
+  height: 403px;
+  text-align: center;
+  background-image: url("../images/image.jpg");
+  background-repeat: no-repeat;
+}
+
+.main_title {
+  margin: 0;
+  padding: 0;
+  padding-top: 204px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 85px;
+  color: #ffffff;
+}
+
+.container_problem {
+  background-color: #eeeeee;
+}
+
+.problem_title,
+.PiedPiperCoin_title {
+  margin: 0;
+  padding: 0;
+  padding-top: 48px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.container_problem_text {
+  padding-top: 0x;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 92px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+  color: #000000;
+}
+
+.container_main_text {
+  display: inline-block;
+  width: 1219px;
+  height: 483px;
+  text-align: center;
+  background-image: url("../images/image-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.main_text {
+  margin: 0;
+  padding: 128px 163px;
+  font-family: 'Roboto', italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.PiedPiperCoin {
+  background-color: #FFFFFF;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.PiedPiperCoin_link {
+  float: left; 
+  padding-right: 48px; 
+  padding-bottom: 35px;
+}
+
+.PiedPiperCoin_text_italic {
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  font-family: 'Roboto', italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+  color: #000000;
+}
+
+.PiedPiperCoin  p {
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.container_PiedPiperCoin_text {
+  padding-bottom: 92px;
+}
