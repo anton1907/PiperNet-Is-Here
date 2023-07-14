@@ -66,12 +66,14 @@ body {
   color: #ffffff;
 }
 
-.container_problem {
+.container_problem,
+.container_the_team {
   background-color: #eeeeee;
 }
 
 .problem_title,
-.PiedPiperCoin_title {
+.PiedPiperCoin_title,
+.the_team_title {
   margin: 0;
   padding: 0;
   padding-top: 48px;
@@ -123,6 +125,7 @@ body {
   float: left; 
   padding-right: 48px; 
   padding-bottom: 35px;
+  padding-top: 37px;
 }
 
 .PiedPiperCoin_text_italic {
