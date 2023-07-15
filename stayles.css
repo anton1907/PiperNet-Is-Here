@@ -67,8 +67,11 @@ body {
 }
 
 .container_problem,
-.container_the_team {
+.container_the_team,
+.container_problem_text {
   background-color: #eeeeee;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 .problem_title,
@@ -86,8 +89,8 @@ body {
 
 .container_problem_text {
   padding-top: 0x;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 0;
+  padding-right: 0;
   padding-bottom: 92px;
   font-weight: 400;
   font-size: 32px;
@@ -150,4 +153,60 @@ body {
 
 .container_PiedPiperCoin_text {
   padding-bottom: 92px;
+}
+
+.the_eam_logo_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-top: 32px;
+  padding-bottom: 94px;
+  list-style: none;
+  gap: 30px 29px;
+}
+
+.the_eam_logo_itam {
+  width: 350px;
+  text-align: center;
+}
+
+.the_eam_logo_name {
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.the_eam_logo_italic {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.page_footer {
+  background-color: #333333;
+}
+
+.container_footer {
+  text-align: center;
+}
+
+.footer_text {
+  margin: 0;
+  padding-left: 370px;
+  padding-right: 370px;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
